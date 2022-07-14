@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color: lightgray;
+    border-bottom: 3px solid black;
+    margin: 0px;
+}
+
+.navbar-brand span {
+    font-size: 2em;
+}
+
+#brand:link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:link, .menu-item:hover, .menu-item:active {
+    font-size: 1.2em;
+}
+
+#chicken-content, #beef-content, #sushi-content {
+    padding: 10px;
+    border: 3px solid white;
+    background-color: lightgray;
+    height: 1500px;
+}
+
+.back-to-top {
+    font-size: 1.1em;
+}
+
+.back-to-top:link {
+    color: gray;
+}
+
+.back-to-top:hover {
+    color: blue;
+}
